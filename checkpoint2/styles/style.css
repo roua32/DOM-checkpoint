@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Farro:300,regular,500,700");
+* {
+  box-sizing: border-box;
+  font-family: "Farro";
+}
+body {
+  margin: 50px;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a88fc5;
+}
+h1 {
+  color: rgb(202, 24, 54);
+}
+
+button {
+  all: unset;
+  border: 2px blueviolet solid;
+  margin-top: 20px;
+  padding: 10px 16px;
+  border-radius: 5px;
+  color: blueviolet;
+  font-weight: bolder;
+  font-style: italic;
+}
+button:hover {
+  color: black;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.box {
+  margin: 50px 200px;
+  padding: 20px;
+}
